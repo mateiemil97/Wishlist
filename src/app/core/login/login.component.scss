@@ -1,0 +1,20 @@
+@import "../../variables";
+
+.name {
+    text-align: center;
+    padding-top: 25%;
+    color: map-get($colors,text-primary);
+    font-family: 'Parisienne', cursive;
+}
+
+.login-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35%;
+}
+
+.quote {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    color: map-get($colors,text-primary);
+}
