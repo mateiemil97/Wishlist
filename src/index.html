@@ -8,8 +8,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Artifika|Source+Serif+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
 </head>
 <body>
   <app-root></app-root>
 </body>
+<script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA_YaHEo_uZzEw1B25cJ5OolhDt0TUWlI0",
+    authDomain: "wishlist-d04d4.firebaseapp.com",
+    databaseURL: "https://wishlist-d04d4.firebaseio.com",
+    projectId: "wishlist-d04d4",
+    storageBucket: "wishlist-d04d4.appspot.com",
+    messagingSenderId: "33720803420"
+  };
+   firebase.initializeApp(config);
+</script>
 </html>
